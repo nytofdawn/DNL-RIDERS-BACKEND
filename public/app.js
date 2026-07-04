@@ -19,6 +19,8 @@ const ICE_SERVERS = [
   }
 ];
 
+const BACKEND_URL = 'https://dnl-riders-backend.onrender.com';   
+
 const joinScreen = document.getElementById('joinScreen');
 const callScreen = document.getElementById('callScreen');
 const joinForm = document.getElementById('joinForm');
@@ -112,7 +114,7 @@ joinForm.addEventListener('submit', async (e) => {
 });
 
 function connectSocket() {
-  socket = io({ transports: ['websocket', 'polling'] });
+  socket = io(BACKEND_URL, { transports: ['websocket', 'polling'] });
 
   socket.on('connect', () => {
     selfId = socket.id;
