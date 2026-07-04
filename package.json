@@ -1,0 +1,16 @@
+{
+  "name": "rider-radio",
+  "version": "1.0.0",
+  "description": "Rider Radio - a no-login group voice call PWA for riding crews. Signaling backend + static PWA frontend.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}

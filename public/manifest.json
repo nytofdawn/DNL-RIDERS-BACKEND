@@ -1,0 +1,19 @@
+{
+  "name": "Rider Radio — Group Voice Call",
+  "short_name": "Rider Radio",
+  "description": "No login. Enter a channel, ride with your crew on a live voice call.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14171A",
+  "theme_color": "#14171A",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
